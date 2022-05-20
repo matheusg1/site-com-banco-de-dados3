@@ -1,0 +1,106 @@
+
+@font-face{font-family:"Pixelated MS Sans Serif";src:url(ms_sans_serif.woff) format("woff");src:url(ms_sans_serif.woff2) format("woff2");font-weight:400;font-style:normal}@font-face{font-family:"Pixelated MS Sans Serif";src:url(ms_sans_serif_bold.woff) format("woff");src:url(ms_sans_serif_bold.woff2) format("woff2");font-weight:700;font-style:normal}body{font-family:Arial;font-size:12px;color:#222}.title-bar,.window,button,input,label,option,select,textarea,ul.tree-view{font-family:"Pixelated MS Sans Serif",Arial;-webkit-font-smoothing:none;font-size:11px}
+h1{
+    font-size:5rem
+}
+h2{
+    font-size:2.5rem
+}
+h3{
+    font-size:2rem
+}
+h4{
+    font-size:1.5rem
+}
+label{
+    line-height: 150%;
+    font-size: 20px; /* tamanho da fonte dos campos*/
+    text-align: right; /* alinhamento */
+    display: block; /* quebrar linhas*/
+}
+
+label input{
+    font-size: 18px; /* tamanho da fonte dentro dos campos*/
+    width: 450px;
+    margin: auto;
+    min-height: 30px; /* altura minima input*/
+}
+.centraliza{
+    margin: auto;
+    width: 50%;
+    margin-top: 5%;
+}
+.gradientao{
+    font-family:"Pixelated MS Sans Serif";
+    min-width: 700px;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #000482 , #1083cf);
+    /*padding-bottom: 30px  tamanho da barra do topo*/
+}
+.centraliza form label input{
+    background-color: white;
+}
+
+.title-bar-text{
+    background-color: transparent;
+}
+.gradientao a:hover{
+    color:grey;
+}
+.gradientao a{
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: transparent;
+}
+nav ul li{
+    float: right;
+    background-color: transparent;
+}
+.window-body .registros{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+}
+.alinhaCentro{
+    text-align: center;
+}
+.window-body button{
+    font-size: 14px;
+}
+/*.camposRename{
+    float:right;
+    font-size: 25px; 
+    min-height: 30px;
+    margin-left:200px;
+    width: 70%;
+    line-height: 150%;
+
+}*/
+.camposRename{
+    line-height: 150%;
+    font-size: 20px; /* tamanho da fonte dos campos*/
+    text-align: right; /* alinhamento */
+    display: block;
+    background-color: transparent;
+}
+.camposRename input{
+    font-size: 18px; /* tamanho da fonte dentro dos campos*/
+    width: 700px;
+    min-height: 30px; /* altura minima input*/
+    background-color: white;
+}
+.camposRename button{
+    font-size: 14px;
+    min-height: 30px;
+}
+*{
+    background-color:#c0c0c0;
+    margin: 0px;
+    font-size: 25px;
+    list-style-type: none;
+    text-decoration: none;
+}
